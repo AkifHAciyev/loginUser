@@ -2,7 +2,37 @@
 	width: 400px;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	margin: 0 auto;
-	height: 80vh;
+	height: 81.2vh;
+}
+
+.wrapper input {
+	margin-bottom: 20px;
+	padding: 8px 15px;
+	font-size: 24px;
+	border-radius: 8px;
+}
+
+.wrapper button {
+	padding: 20px;
+	font-size: 30px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+}
+
+header {
+	background-color: rgb(133, 132, 132);
+	height: 150px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header button {
+	font-size: 30px;
+	padding: 15px;
+	background-color: rgb(100, 231, 150);
+	border-radius: 8px;
+	cursor: pointer;
 }
